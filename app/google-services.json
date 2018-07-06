@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "980281012580",
+    "firebase_url": "https://notas-de-fe.firebaseio.com",
+    "project_id": "notas-de-fe",
+    "storage_bucket": "notas-de-fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980281012580:android:979d5c5f6a1cf71b",
+        "android_client_info": {
+          "package_name": "emmrdz.notasdefe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980281012580-lutaedhuq1p6sesivcuo8p1vrg2958ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "emmrdz.notasdefe",
+            "certificate_hash": "ae6497bf7be718c5d6210476976122e7e00b77b7"
+          }
+        },
+        {
+          "client_id": "980281012580-6hmu19nb31ujj8cqq0i8f79t34e4ok6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdfI-OP4DpTGcbpcQhUdOVvFj_Ti2nv_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980281012580-6hmu19nb31ujj8cqq0i8f79t34e4ok6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

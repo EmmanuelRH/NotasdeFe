@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cv_templo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardUseCompatPadding="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/templo_icono"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/church"
+            android:layout_alignParentStart="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/templo_icono"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/card_margin_start">
+
+            <TextView
+                android:id="@+id/templo_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/card_margin_start"
+                android:fontFamily="roboto_regular"
+                android:textSize="@dimen/card_nombre"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/templo_direccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="roboto_light"
+                android:layout_marginStart="@dimen/card_margin_start"
+                android:textSize="@dimen/card_direccion"/>
+
+            <TextView
+                android:id="@+id/templo_agrupacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="roboto_light"
+                android:layout_marginStart="@dimen/card_margin_start"
+                android:textSize="@dimen/card_direccion" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
